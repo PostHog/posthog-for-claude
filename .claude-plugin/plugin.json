@@ -1,0 +1,11 @@
+{
+  "name": "posthog",
+  "description": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "PostHog",
+    "url": "https://posthog.com"
+  },
+  "repository": "https://github.com/PostHog/posthog-for-claude",
+  "documentation": "https://posthog.com/docs/model-context-protocol"
+}
