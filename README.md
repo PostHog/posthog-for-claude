@@ -45,11 +45,12 @@ This plugin provides access to 27+ PostHog tools across these categories:
 - `/posthog:dashboards` - Create and manage dashboards
 - `/posthog:surveys` - Create and manage user surveys
 - `/posthog:query` - Run HogQL queries and natural language analytics
-
-**Coming soon:**
 - `/posthog:logs` - Query application logs
 - `/posthog:llm-analytics` - Track AI/LLM costs and usage
 - `/posthog:docs` - Search PostHog documentation
+- `/posthog:actions` - Manage PostHog actions
+- `/posthog:search` - Search across all PostHog entities
+- `/posthog:workspace` - Manage organizations and projects
 
 ## Example Usage
 
@@ -78,7 +79,7 @@ This plugin provides access to 27+ PostHog tools across these categories:
 
 ## EU Cloud
 
-If your PostHog project is on EU Cloud, the MCP server will automatically detect this based on your API key.
+If your PostHog project is on EU Cloud, add `?region=eu` to the MCP URL. The plugin will auto-detect on first use, but specifying the region explicitly is faster and more reliable.
 
 ## Self-hosted
 
