@@ -6,12 +6,5 @@
     "name": "PostHog",
     "url": "https://posthog.com"
   },
-  "repository": "https://github.com/PostHog/posthog-for-claude",
-  "documentation": "https://posthog.com/docs/model-context-protocol",
-  "mcpServers": {
-    "posthog": {
-      "type": "http",
-      "url": "https://mcp.posthog.com/mcp"
-    }
-  }
+  "repository": "https://github.com/PostHog/posthog-for-claude"
 }

@@ -1,6 +1,6 @@
 ---
-name: flags
 description: List and manage PostHog feature flags
+argument-hint: [flag-name]
 ---
 
 # Feature Flags
