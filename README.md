@@ -12,18 +12,17 @@ claude plugin install posthog
 
 ### Manual installation
 
-1. Get a PostHog personal API key from [your settings](https://app.posthog.com/settings/user-api-keys?preset=mcp_server)
-
-2. Set your API key:
-```bash
-export POSTHOG_PERSONAL_API_KEY="phx_your_key_here"
-```
-
-3. Clone and install the plugin:
+1. Clone and install the plugin:
 ```bash
 git clone https://github.com/PostHog/posthog-for-claude
 claude --plugin-dir ./posthog-for-claude
 ```
+
+2. Authenticate via OAuth:
+```
+/mcp
+```
+Then follow the browser prompts to log in to PostHog.
 
 ## Features
 
