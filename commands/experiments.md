@@ -7,11 +7,11 @@ argument-hint: [experiment-name]
 
 Use the PostHog MCP tools to help the user with A/B testing experiments:
 
-1. To list all experiments, use `posthog_get_all_experiments`
-2. To get details about a specific experiment, use `posthog_get_experiment` with the experiment ID
-3. To view experiment results and statistical significance, use `posthog_get_experiment_results`
-4. To create a new experiment, use `posthog_create_experiment`
-5. To update an experiment, use `posthog_update_experiment`
+1. To list all experiments, use `experiment-get-all`
+2. To get details about a specific experiment, use `experiment-get` with the experiment ID
+3. To view experiment results and statistical significance, use `experiment-results-get`
+4. To create a new experiment, use `experiment-create`
+5. To update an experiment, use `experiment-update`
 6. To launch or stop an experiment, use the appropriate update action
 
 ## Example prompts

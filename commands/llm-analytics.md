@@ -7,7 +7,7 @@ argument-hint: [time-range]
 
 Use the PostHog MCP tools to help the user with LLM and AI cost tracking:
 
-1. To get LLM costs and usage data, use `posthog_get_llm_costs`
+1. To get LLM costs and usage data, use `get-llm-total-costs-for-project`
 2. Help the user understand their AI spending by model, prompt, or time period
 3. Identify expensive prompts and opportunities for optimization
 

@@ -7,11 +7,11 @@ argument-hint: [query]
 
 Use the PostHog MCP tools to help the user with insights and analytics:
 
-1. To list existing insights, use `posthog_get_all_insights`
-2. To view a specific insight, use `posthog_get_insight` with the insight ID
-3. To run a custom query, use `posthog_query_insight` or `posthog_run_query`
-4. For natural language questions, use `posthog_generate_hogql_from_question` to convert to HogQL first
-5. To create new insights, use `posthog_create_insight`
+1. To list existing insights, use `insights-get-all`
+2. To view a specific insight, use `insight-get` with the insight ID
+3. To run a custom query, use `insight-query` or `query-run`
+4. For natural language questions, use `query-generate-hogql-from-question` to convert to HogQL first
+5. To create new insights, use `insight-create-from-query`
 
 ## Example prompts
 

@@ -7,11 +7,11 @@ argument-hint: [survey-name]
 
 Use the PostHog MCP tools to help the user with survey management:
 
-1. To list all surveys, use `posthog_get_all_surveys`
-2. To get details about a specific survey, use `posthog_get_survey` with the survey ID
-3. To view survey responses and statistics, use `posthog_get_survey_results`
-4. To create a new survey, use `posthog_create_survey`
-5. To update a survey, use `posthog_update_survey`
+1. To list all surveys, use `surveys-get-all`
+2. To get details about a specific survey, use `survey-get` with the survey ID
+3. To view survey responses and statistics, use `survey-stats`
+4. To create a new survey, use `survey-create`
+5. To update a survey, use `survey-update`
 6. To launch or stop a survey, use the appropriate update action
 
 ## Example prompts

@@ -7,7 +7,7 @@ argument-hint: [search-query]
 
 Use the PostHog MCP tools to help the user find information in PostHog docs:
 
-1. To search the documentation, use `posthog_search_docs` with the user's query
+1. To search the documentation, use `docs-search` with the user's query
 2. Return relevant documentation links and summaries
 3. Help explain PostHog concepts and features based on the docs
 

@@ -7,9 +7,9 @@ argument-hint: [query]
 
 Use the PostHog MCP tools to help the user with log querying:
 
-1. To query logs, use `posthog_query_logs` with optional filters for time range, severity, and content
-2. To discover available log attributes, use `posthog_list_log_attributes`
-3. To see possible values for a specific attribute, use `posthog_list_log_attribute_values`
+1. To query logs, use `logs-query` with optional filters for time range, severity, and content
+2. To discover available log attributes, use `logs-list-attributes`
+3. To see possible values for a specific attribute, use `logs-list-attribute-values`
 4. Help the user filter and analyze logs to debug issues
 
 ## Example prompts

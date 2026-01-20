@@ -7,11 +7,11 @@ argument-hint: [flag-name]
 
 Use the PostHog MCP tools to help the user with feature flags:
 
-1. First, call `posthog_get_all_feature_flags` to list all feature flags in the active project
-2. If the user asks about a specific flag, use `posthog_get_feature_flag_definition` with the flag key
-3. If the user wants to create a flag, use `posthog_create_feature_flag`
-4. If the user wants to update a flag, use `posthog_update_feature_flag`
-5. If the user wants to delete a flag, confirm first then use `posthog_delete_feature_flag`
+1. First, call `feature-flag-get-all` to list all feature flags in the active project
+2. If the user asks about a specific flag, use `feature-flag-get-definition` with the flag key
+3. If the user wants to create a flag, use `create-feature-flag`
+4. If the user wants to update a flag, use `update-feature-flag`
+5. If the user wants to delete a flag, confirm first then use `delete-feature-flag`
 
 ## Example prompts
 

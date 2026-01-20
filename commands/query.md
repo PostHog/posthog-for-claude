@@ -7,10 +7,10 @@ argument-hint: [question or query]
 
 Use the PostHog MCP tools to run HogQL queries and answer analytics questions:
 
-1. For natural language questions, use `posthog_generate_hogql_from_question` to convert to HogQL
-2. To run a HogQL query directly, use `posthog_run_query`
+1. For natural language questions, use `query-generate-hogql-from-question` to convert to HogQL
+2. To run a HogQL query directly, use `query-run`
 3. For complex analysis, combine multiple queries to build up the answer
-4. Use `posthog_query_insight` to query data in the context of an existing insight
+4. Use `insight-query` to query data in the context of an existing insight
 
 ## HogQL Tips
 
