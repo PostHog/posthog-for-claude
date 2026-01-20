@@ -1,0 +1,19 @@
+---
+description: Search PostHog documentation
+argument-hint: [search-query]
+---
+
+# Documentation
+
+Use the PostHog MCP tools to help the user find information in PostHog docs:
+
+1. To search the documentation, use `posthog_search_docs` with the user's query
+2. Return relevant documentation links and summaries
+3. Help explain PostHog concepts and features based on the docs
+
+## Example prompts
+
+- "How do I set up feature flags?"
+- "What is HogQL?"
+- "How do I track custom events?"
+- "Explain how session replay works"
