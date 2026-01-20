@@ -38,18 +38,42 @@ This plugin provides access to 27+ PostHog tools across these categories:
 
 ## Slash Commands
 
-- `/posthog:flags` - Manage feature flags
-- `/posthog:insights` - Query analytics data
-- `/posthog:errors` - View error tracking data
+- `/posthog:flags` - List and manage feature flags
+- `/posthog:insights` - Query analytics and create visualizations
+- `/posthog:errors` - View and debug error tracking data
+- `/posthog:experiments` - Manage A/B testing experiments
+- `/posthog:dashboards` - Create and manage dashboards
+- `/posthog:surveys` - Create and manage user surveys
+- `/posthog:query` - Run HogQL queries and natural language analytics
+
+**Coming soon:**
+- `/posthog:logs` - Query application logs
+- `/posthog:llm-analytics` - Track AI/LLM costs and usage
+- `/posthog:docs` - Search PostHog documentation
 
 ## Example Usage
 
 ```
 > What feature flags do I have?
+> Create a feature flag called new-onboarding for 50% of users
+
 > Show me errors from the last 24 hours
+> Which errors are affecting the most users?
+
 > How many users signed up this week?
-> Create a feature flag for the new checkout flow
-> What are my LLM costs this month?
+> What's the conversion rate for the checkout funnel?
+
+> Show me all my experiments
+> What are the results of the checkout-flow experiment?
+
+> Create a new dashboard called Product Metrics
+> Add the signup funnel insight to the Growth dashboard
+
+> What are the responses to the NPS survey?
+> Create a feedback survey for the checkout page
+
+> What's my most triggered event?
+> Show me the top 10 pages by pageviews
 ```
 
 ## EU Cloud
