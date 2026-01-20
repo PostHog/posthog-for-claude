@@ -1,8 +1,9 @@
-# /posthog:errors
+---
+description: View PostHog error tracking data
+argument-hint: [error-id]
+---
 
-View and analyze errors tracked in PostHog.
-
-## Instructions
+# Error Tracking
 
 Use the PostHog MCP tools to help the user with error tracking:
 
@@ -14,5 +15,5 @@ Use the PostHog MCP tools to help the user with error tracking:
 
 - "What are my most common errors?"
 - "Show me errors from the last 24 hours"
-- "Tell me more about this error: [error_id]"
+- "Tell me more about this error"
 - "Which errors are affecting the most users?"

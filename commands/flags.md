@@ -1,8 +1,9 @@
-# /posthog:flags
+---
+description: List and manage PostHog feature flags
+argument-hint: [flag-name]
+---
 
-List and manage feature flags in your PostHog project.
-
-## Instructions
+# Feature Flags
 
 Use the PostHog MCP tools to help the user with feature flags:
 

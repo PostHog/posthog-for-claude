@@ -1,8 +1,9 @@
-# /posthog:insights
+---
+description: Query PostHog analytics and insights
+argument-hint: [query]
+---
 
-Query and analyze PostHog insights and analytics data.
-
-## Instructions
+# Insights
 
 Use the PostHog MCP tools to help the user with insights and analytics:
 
@@ -18,4 +19,3 @@ Use the PostHog MCP tools to help the user with insights and analytics:
 - "How many users signed up last week?"
 - "What's the conversion rate for the checkout funnel?"
 - "Create an insight showing daily active users"
-- "Query pageviews by country for the last 30 days"
