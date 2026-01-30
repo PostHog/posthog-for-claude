@@ -79,33 +79,23 @@ This plugin provides access to 27+ PostHog tools across these categories:
 
 ## EU Cloud
 
-If your PostHog project is on EU Cloud, you need to use the EU-specific MCP endpoint. After installing the plugin, replace `.mcp.json` with `.mcp-eu.json`:
+If your PostHog project is on EU Cloud, set the `POSTHOG_MCP_URL` environment variable:
 
 ```bash
-cp .mcp-eu.json .mcp.json
+# Add to your ~/.zshrc or ~/.bashrc
+export POSTHOG_MCP_URL="https://mcp-eu.posthog.com/mcp"
 ```
 
-Or manually edit `.mcp.json` to use the EU URL:
-
-```json
-{
-  "mcpServers": {
-    "posthog": {
-      "type": "http",
-      "url": "https://mcp-eu.posthog.com/mcp"
-    }
-  }
-}
-```
+Then restart Claude Code or open a new terminal session.
 
 > **Note:** The `?region=eu` query parameter does not work due to a [known Claude Code OAuth issue](https://github.com/anthropics/claude-code/issues/2034). You must use the `mcp-eu.posthog.com` subdomain instead.
 
 ## Self-hosted
 
-For self-hosted PostHog instances, set the `POSTHOG_BASE_URL` environment variable:
+For self-hosted PostHog instances, set the `POSTHOG_MCP_URL` environment variable to point to your instance:
 
 ```bash
-export POSTHOG_BASE_URL="https://posthog.example.com"
+export POSTHOG_MCP_URL="https://mcp.your-posthog-instance.com/mcp"
 ```
 
 ## Documentation
