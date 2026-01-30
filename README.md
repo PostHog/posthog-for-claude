@@ -79,7 +79,26 @@ This plugin provides access to 27+ PostHog tools across these categories:
 
 ## EU Cloud
 
-If your PostHog project is on EU Cloud, add `?region=eu` to the MCP URL. The plugin will auto-detect on first use, but specifying the region explicitly is faster and more reliable.
+If your PostHog project is on EU Cloud, you need to use the EU-specific MCP endpoint. After installing the plugin, replace `.mcp.json` with `.mcp-eu.json`:
+
+```bash
+cp .mcp-eu.json .mcp.json
+```
+
+Or manually edit `.mcp.json` to use the EU URL:
+
+```json
+{
+  "mcpServers": {
+    "posthog": {
+      "type": "http",
+      "url": "https://mcp-eu.posthog.com/mcp"
+    }
+  }
+}
+```
+
+> **Note:** The `?region=eu` query parameter does not work due to a [known Claude Code OAuth issue](https://github.com/anthropics/claude-code/issues/2034). You must use the `mcp-eu.posthog.com` subdomain instead.
 
 ## Self-hosted
 
